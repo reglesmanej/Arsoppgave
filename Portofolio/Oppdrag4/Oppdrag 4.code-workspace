@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Oppdrag 4"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Oppdrag4"
+	}
+}

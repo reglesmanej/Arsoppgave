@@ -1,0 +1,118 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.boxes{
+    display: flex;
+    color: #ddd;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    width: 25%;
+    padding-bottom: %;
+    border-radius: 30px;
+}
+
+.tekst{
+    width: 90%;
+    padding-left: 5%;
+    font-size: 1.25em;
+    color: black;
+    font-style: oblique;
+    border: none;
+
+}
+
+button{
+    width: fit-content;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-top: 100%;
+    margin-bottom: 20%;
+    box-shadow: 5px 5px 5px  lightslategray;
+}
+
+.knapbox{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#venstrebutton{
+    margin-top: 118px;
+}
+
+.knapbox :hover{
+    background-color:;
+    opacity: 0.7;
+}
+
+.hoyre{
+    background-image: linear-gradient(#CCFFFF, #CCE5FF);
+    box-shadow: 10px 10px 10px gray ;
+}
+
+.senter{
+    background-image: linear-gradient(#99FFCC, #66FF66, #CCFFCC );
+    box-shadow: 10px 10px 10px gray ;
+}
+.venstre{
+    background-image: linear-gradient( #00CCCC, #009999, #006666);
+    box-shadow: 10px 10px 10px gray ;
+}
+
+#senterstemmer{
+    color: black;
+    font-size: 2em;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightgrey;
+}
+#venstrestemmer{
+    color: black;
+    font-size: 2em;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+#hoyrestemmer{
+    color: black;
+    font-size: 2em;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.footer{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+#totalstemmer{
+    font-size: 5em;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+

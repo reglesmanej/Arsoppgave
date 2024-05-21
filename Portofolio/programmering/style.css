@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+
+}
+
+.header {
+    background-color: #94bee6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.textside1 {
+
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    font-style: oblique;
+    position: absolute;
+    top: 90%;
+    right: 27%;
+}
+
+.bilde2 {
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+.groupbilde {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.omoss {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+.footer {
+    font-size: large;
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+/* Her starter jeg med side 2*/
+   
+.body2 {
+    background-color: #94bee6;
+
+}
+.header2 {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.tittel {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black ;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  
+}
+
+.homebutton {
+    background-color: lightslategray;
+    font-size: 50%;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+.border{
+    display: flex;
+    justify-content: center;
+}
+.table,th,td{ 
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: large;
+    
+}
+.footer2{
+    font-size: large;
+    background-color: lightslategray;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between
+    
+}

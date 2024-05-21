@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containor">
+        <div class="table">
+            <table id="table">
+                <thead style="text-align: left;">
+                    <tr id="oversikt">
+                        <th>Fag</th>
+                        <th>Standpunkt Karakter</th>
+                        <th>Fjern Fag</th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: center;">
+                    <tr>
+                        <td id="fagnavn">Matte</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="matte1">1</button>
+                            <button onclick="karakterKnapp(this)" id="matte2">2</button>
+                            <button onclick="karakterKnapp(this)" id="matte3">3</button>
+                            <button onclick="karakterKnapp(this)" id="matte4">4</button>
+                            <button onclick="karakterKnapp(this)" id="matte5">5</button>
+                            <button onclick="karakterKnapp(this)" id="matte6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td id="fagnavn">Naturfag</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="naturfag1">1</button>
+                            <button onclick="karakterKnapp(this)" id="naturfag2">2</button>
+                            <button onclick="karakterKnapp(this)" id="naturfag3">3</button>
+                            <button onclick="karakterKnapp(this)" id="naturfag4">4</button>
+                            <button onclick="karakterKnapp(this)" id="naturfag5">5</button>
+                            <button onclick="karakterKnapp(this)" id="naturfag6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td id="fagnavn">Kroppsøvning</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="gym1">1</button>
+                            <button onclick="karakterKnapp(this)" id="gym2">2</button>
+                            <button onclick="karakterKnapp(this)" id="gym3">3</button>
+                            <button onclick="karakterKnapp(this)" id="gym4">4</button>
+                            <button onclick="karakterKnapp(this)" id="gym5">5</button>
+                            <button onclick="karakterKnapp(this)" id="gym6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td id="fagnavn">Sammfunsfag</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="sammfunsfag n1">1</button>
+                            <button onclick="karakterKnapp(this)" id="sammfunsfag2">2</button>
+                            <button onclick="karakterKnapp(this)" id="sammfunsfag3">3</button>
+                            <button onclick="karakterKnapp(this)" id="sammfunsfag4">4</button>
+                            <button onclick="karakterKnapp(this)" id="sammfunsfag5">5</button>
+                            <button onclick="karakterKnapp(this)" id="sammfunsfag6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td id="fagnavn">Norsk</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="norsk1">1</button>
+                            <button onclick="karakterKnapp(this)" id="norsk2">2</button>
+                            <button onclick="karakterKnapp(this)" id="norsk3">3</button>
+                            <button onclick="karakterKnapp(this)" id="norsk4">4</button>
+                            <button onclick="karakterKnapp(this)" id="norsk5">5</button>
+                            <button onclick="karakterKnapp(this)" id="norsk6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td id="fagnavn">Språkfag</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="sprakfag1">1</button>
+                            <button onclick="karakterKnapp(this)" id="sprakfag2">2</button>
+                            <button onclick="karakterKnapp(this)" id="sprakfag3">3</button>
+                            <button onclick="karakterKnapp(this)" id="sprakfag4">4</button>
+                            <button onclick="karakterKnapp(this)" id="sprakfag5">5</button>
+                            <button onclick="karakterKnapp(this)" id="sprakfag6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td id="fagnavn">KRLE</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="krle1">1</button>
+                            <button onclick="karakterKnapp(this)" id="krle2">2</button>
+                            <button onclick="karakterKnapp(this)" id="krle3">3</button>
+                            <button onclick="karakterKnapp(this)" id="krle4">4</button>
+                            <button onclick="karakterKnapp(this)" id="krle5">5</button>
+                            <button onclick="karakterKnapp(this)" id="krle6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+
+
+                    <tr id="dans">
+
+                        <td id="fagnavn">Dans</td>
+
+                        <td id="numbers">
+                            <button onclick="karakterKnapp(this)" id="dans1">1</button>
+                            <button onclick="karakterKnapp(this)" id="dans2">2</button>
+                            <button onclick="karakterKnapp(this)" id="dans3">3</button>
+                            <button onclick="karakterKnapp(this)" id="dans4">4</button>
+                            <button onclick="karakterKnapp(this)" id="dans5">5</button>
+                            <button onclick="karakterKnapp(this)" id="dans6">6</button>
+                        </td>
+
+                        <td>
+                            <input id="removebutton" type="button" value="X">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <a href="index.html"><button id="refreshbutton">Refresh</button></a>
+        <button id="regnbutton" onclick="snitt()">Regn ut snittet</button>
+        <p id="result"></p>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

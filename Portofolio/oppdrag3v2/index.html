@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head> 
+
+<body>
+    <!-- Her er header -->
+    <div class="header">
+        <h1>Her kan du stemme!</h1>
+    </div>
+
+    <div class="box">
+
+        <!-- her er boxen for hØyrepartiet -->
+        <div class="boxes hoyre">
+            <img src="hoyrelogo.png" alt="" width="400px" height="225px">
+            <p class="tekst">Høyresiden er en vid samlebetegnelse for politiske partier, ideologier og sympatier som
+                anser sosial
+                lagdeling eller sosial ulikhet som uunngåelig, normalt eller ønskelig. Høyresiden er typisk opptatt av
+                individuell frihet og konservatisme, bevaringen av tradisjonelle institusjoner og verdier.</p>
+
+            <!-- når du trykker på den knappen har så stemmer du til den parttien som du onsker å stemme på  -->
+            <div class="knapbox">
+                <button onclick="vote_h()">STEM</button>
+            </div>
+
+            <div>
+                <p id="hoyrestemmer">0</p>
+            </div>
+        </div>
+
+        <!-- her er boxen til venstrepartiet  -->
+        <div class="boxes venstre">
+            <img src="venstrelogo.png" alt="" width="400px" height="225px">
+
+            <p class="tekst">Venstresiden er en fløy i politikken der de tilhørende partiene eller personer har visse
+                politiske
+                fellestrekk. Fellestrekket mellom ideologier på venstresiden er et mål om høyere grad av sosial likhet
+                og egalitarisme mellom innbyggerne i et samfunn.</p>
+
+            <!-- når du trykker på den knappen har så stemmer du til den parttien som du onsker å stemme på  -->
+            <div class="knapbox">
+                <button id="venstrebutton" onclick="vote_v()">STEM</button>
+            </div>
+
+            <div>
+                <p id="venstrestemmer">0</p>
+            </div>
+        </div>
+
+        <div class="boxes senter">
+
+            <!-- her er boxen til senterpartiet  -->
+            <img src="senterlogo.png" alt="" width="400px" height="225px">
+            <p class="tekst">Motstand mot økonomisk liberalisering og frie markedskrefter. Desentralisering av
+                eiendomsrett, makt,
+                bosetning og kapital. Større likestilling mellom ulike grupper i samfunnet. Økonomisk måtehold og
+                prioritering av ikke-materielle verdier, som for eksempel miljøvern.</p>
+
+            <!-- når du trykker på den knappen har så stemmer du til den parttien som du onsker å stemme på  -->
+            <div class="knapbox">
+                <button onclick="vote_s()">STEM</button>
+            </div>
+
+            <div>
+                <p id="senterstemmer">0</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <h2>Total Stemmer</h2>
+
+        <div>
+            <p id="totalstemmer">0</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
